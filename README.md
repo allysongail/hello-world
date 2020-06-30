@@ -1,2 +1,3 @@
 # hello-world
-beginner's repo
+
+Trying out github
