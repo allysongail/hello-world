@@ -1,0 +1,59 @@
+:root {
+box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, Arial, Sans-serif;
+    border-radius: 0.5em;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+header {
+    color: black;
+    background-color: pink;
+    border-radius: 0.5em;
+}
+
+.container {
+    display:flex;
+}
+
+.main {
+    width: 70%;
+    padding: 1em 1.5em;
+    background-color: pink;
+    border-radius: 0.5em;
+}
+.sidebar{
+    width: 30%;
+    padding: 1.5em;
+    margin-top: 0;
+    margin-left: 1.5em;
+    background-color: lightgrey;
+    border-radius: 0.5em;
+}
+
+.button-link {
+    display: block;
+    padding: 0.5em;
+    color: pink;
+background-color: white;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.donor-link{
+    display: block;
+    padding: 0.5em;
+    color: white;
+
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}

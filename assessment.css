@@ -1,0 +1,107 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+header {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+}
+
+/* Layout */
+a:link {
+    color: rgb(238, 177, 187);
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(182, 155, 155);
+    text-decoration: underline;
+}
+a:hover {
+    color:rgb(160, 102, 102);
+    text-decoration: none;
+}
+a:focus{
+    color: rgb(71, 42, 42);
+    text-decoration: none;
+}
+
+section {
+  float: left;
+  width: 50%;
+  text-indent: 20px;
+  line-height: inherit;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+aside ul {
+    padding-top: 1.5em;
+    line-height: 2em;
+    text-indent: 0.5em;
+    padding-bottom: 1em;
+}
+
+nav {
+  display: flex;
+  float: left;
+  width: 20%;
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 0.5em;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 1em;
+    background-color:white;
+    color: pink;
+    text-transform: uppercase;
+    text-align: center;
+    border: solid 1px pink;
+    margin-bottom: 1.5em;
+}
+
+
+
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */

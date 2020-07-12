@@ -1,0 +1,22 @@
+:root {
+box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, Arial, Sans-serif;
+}
+header {
+    color: black;
+    background-color: lightblue;
+    border-radius: 0.5em;
+}
+.main {
+    background-color: blue;
+    border-radius: 0.5em;
+}
+.sidebar{
+    padding: 1.5em;
+}

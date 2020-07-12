@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+}
+
+table, th, tr, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 2px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 100px;
+}
+
+
+.col {
+    background-color: hsl(250, 11%, 89%);
+}
+
+.rowgroup{
+    background-color: rgb(243, 239, 239);
+}
